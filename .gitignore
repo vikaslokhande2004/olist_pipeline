@@ -1,0 +1,11 @@
+raw/
+*.parquet
+*.gz
+*.zip
+__pycache__/
+*.pyc
+.env
+config.env
+venv/
+.DS_Store
+logs/
