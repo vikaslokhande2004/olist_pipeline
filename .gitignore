@@ -1,11 +1,28 @@
+# Raw and generated data
 raw/
+processed/
+reports/
+
+# Data files
 *.parquet
 *.gz
 *.zip
+
+# Python
 __pycache__/
 *.pyc
+
+# Environment / secrets
 .env
 config.env
+
+# Virtual environments
 venv/
-.DS_Store
+venv_linux/
+.venv/
+
+# Logs
 logs/
+
+# OS files
+.DS_Store
